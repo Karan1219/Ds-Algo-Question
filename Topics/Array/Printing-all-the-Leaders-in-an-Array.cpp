@@ -33,4 +33,5 @@ int main()
     {
         cout<<ans[i]<<" ";
     }
+    return 0;
 }

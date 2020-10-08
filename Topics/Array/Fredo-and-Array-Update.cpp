@@ -43,5 +43,5 @@ int main() {
 	
 	int div=sum/n;
 	cout<<++div<<endl;
-
+	return 0;
 }
