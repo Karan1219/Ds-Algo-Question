@@ -13,7 +13,8 @@ int sum1(int n,int sum)
    return sum;
  }
   sum+=n%10;
-  sum1(n/10,sum);
+  return sum1(n/10,sum);
+ 
 }
 int main()
 {

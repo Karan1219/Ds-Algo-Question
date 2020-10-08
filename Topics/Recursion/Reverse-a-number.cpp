@@ -10,7 +10,7 @@ int reverse(int n,int rev)
     return rev;
   
   rev=rev*10+n%10;
-  reverse(n/10,rev);
+  return reverse(n/10,rev);
 }
 int main()
 {
