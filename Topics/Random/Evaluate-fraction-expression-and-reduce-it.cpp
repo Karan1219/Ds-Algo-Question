@@ -79,9 +79,7 @@ int main()
     vector<string> exp(exp_count);
     for(int i=0;i<exp_count;i++)
     {
-        
        cin>>exp[i];
-       cout<<exp[i]<<endl;
     }
  
     vector<string> result;
